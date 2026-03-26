@@ -1,3 +1,9 @@
+/**
+ * What could be done in the future:
+ * - implement output schema with structured response as addition to the txt response
+ * - additional flag for some tools, like readony etc.
+ */
+
 import { asToolDescriptor as authDescriptor } from "@spica-fn/Auth";
 
 // ---------------------------------------------------------------------------
