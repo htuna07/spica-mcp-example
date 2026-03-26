@@ -1,0 +1,13 @@
+{
+  "name": "Auth",
+  "description": "No description.",
+  "version": "0.0.1",
+  "private": true,
+  "keywords": [
+    "spica",
+    "function",
+    "node.js"
+  ],
+  "license": "UNLICENSED",
+  "main": ".build/index.mjs"
+}

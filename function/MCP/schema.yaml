@@ -1,0 +1,24 @@
+_id: 69c50cc0d1059b1f8460e8a9
+name: MCP
+language: javascript
+timeout: 60
+triggers:
+  post:
+    type: http
+    active: true
+    options:
+      method: Post
+      path: /mcp
+      preflight: true
+      authenticate: []
+      authorize: false
+  del:
+    type: http
+    active: true
+    options:
+      method: Delete
+      path: /mcp
+      preflight: true
+      authenticate: []
+      authorize: false
+memoryLimit: 100

@@ -1,0 +1,15 @@
+_id: 69c50c24315ca389975b8ac2
+name: Auth
+language: javascript
+timeout: 10
+triggers:
+  default:
+    type: http
+    active: true
+    options:
+      method: Get
+      path: /login
+      preflight: true
+      authenticate: []
+      authorize: false
+memoryLimit: 100
